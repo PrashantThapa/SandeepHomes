@@ -1,3 +1,46 @@
+<div class="bottom-highlight">
+
+
+
+<div class="container">
+
+
+
+<div class="col-md-6"></div>
+
+
+
+<div class="col-md-6 text-center">
+
+
+
+Materials &amp; Specs. are above industry standards
+
+
+
+Covered by Progressive Home Warranty
+
+
+
+Covered by CSA (Canadian Std. Assoc.)
+
+
+
+Experienced &amp; qualified warranty service team.
+
+
+
+</div>
+
+
+
+</div>
+
+
+
+</div>
+
+
 <div id="footer">
        <div class="container">
         <div class="sixteen columns">
@@ -204,3 +247,4 @@
 <script src="assets/js/script.min.js"></script>
 
 <script src="assets/js/custom.js"></script>
+
