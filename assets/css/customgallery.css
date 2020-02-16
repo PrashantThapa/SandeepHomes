@@ -81,6 +81,7 @@ img {
  .img-wrapper {
    position: relative;
    margin-top: 15px;
+   border: 2px solid black;
 }
  .img-wrapper img {
    width: 100%;
@@ -101,7 +102,10 @@ img {
 */	   transition: transform 2s cubic-bezier(0.2, 0.96, 0.34, 1);
 
 }
+
+
  .img-overlay i {
+}
 /*   color: #4d9de0;
 */   color: white;
    font-size: 3em;
@@ -271,17 +275,20 @@ a:focus, a:hover {
        margin: 0px !important; 
       line-height: 1.2 !important;
       color: white !important;
-    font-size: 15px !important;
+      font-size: 15px !important;
+
  }
 
   .texthomespecsli{
       font-family: "Oswald", sans-serif !important;
       text-align: left;
       /* font-weight: 700 !important; */
-       margin: 0px !important; 
-      line-height: 1.2 !important;
+/*       margin: 0px !important; 
+*/      line-height: 1.2 !important;
       color: black !important;
       font-size: 20px !important;
+            margin-bottom: 30px !important;
+
  }
 
 

@@ -145,7 +145,7 @@
 
                                         <li>
 
-                                            <a href="#">View Plans</a>
+                                            <a href="gallerypage.php">View Plans</a>
 
                                         </li>
 

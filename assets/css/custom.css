@@ -473,6 +473,11 @@ h1 {
                 margin-bottom: 50px;
               }
 
+              .pic-right {
+     float: unset !important; 
+     margin-left: unset !important; 
+}
+
 }
 
 /*.contact-block .map-col{
@@ -484,6 +489,10 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     width: 135px !important;
+}
+
+.texthomespecs.active{
+  background: #fae207 !important;
 }
 
     .footerdescription{
