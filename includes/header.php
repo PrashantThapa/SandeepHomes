@@ -1,40 +1,40 @@
-<head>
+    <head>
 
-    <meta charset="utf-8">
+        <meta charset="utf-8">
 
-    <!-- meta for the favicon's  -->
-    <link rel="icon" href="assets/images/faviconsandeep.png"/>
+        <!-- meta for the favicon's  -->
+        <link rel="icon" href="assets/images/faviconsandeep.png"/>
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
 
-    <title>RTM Homes | Custom Home Builder | Residential Construction Services</title>
+        <title>RTM Homes | Custom Home Builder | Residential Construction Services</title>
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
 
-          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+              integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="assets/css/jquery.fancybox.css">
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/custom.css" rel="stylesheet">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/jquery.fancybox.css">
+        <link href="assets/css/style.css" rel="stylesheet">
+        <link href="assets/css/custom.css" rel="stylesheet">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
-</head>
+    </head>
 
-
-<header class="site-header">
+<header class="site-header btmheader">
 
     <div class="site-header__primary">
 
-        <div class="container">
+        <div class="container containerheader">
 
             <div class="row flex">
 
+
                 <div class="left-col cell">
 
-                    <a href="index.html" class="site-logo">
+                    <a href="index.php" class="site-logo">
 
                         <img src="assets/images/sandeeplogo.png" alt="">
 
@@ -42,72 +42,56 @@
 
                 </div>
 
-                <div class="right-col cell">
+                <div class="right-cols">
 
-                    <div class="menu-holder">
+                    <div class="top">
 
-                        <nav id="primary-nav" class="dropdown clearfix">
+                        <div class="flex">
 
-                            <ul class="dropdown menu clearfix">
+                            <div class="cell top-bar__contact">
 
-                            <li class='active'><a href="#">Home</a></li>
-                                
-                                <li><a href="#">About Us</a>
+<h5 class="small-title" style="color:#000; font-family: myFirstFont">Ready to Move Homes</h5>
+                            </div>
 
-                                </li>
+                
 
-                                <li>
+                            <div class="cell">
 
-                                    <a href="#">View Plans</a>
+                                <ul class="social-media social-mediaheader">
 
-                                </li>
+                                    <li>
+                                        <h5 class="medium-title" style="color:#000"><i class="fas fa-mobile-alt"></i>&nbsp;Call For Any Query: 403-404-0000&nbsp;
+</li>
 
-                                                          <li>
+                                    <li class="facebook">
 
-                                    <a href="#">Site Built Homes</a>
+                                        <a href="https://www.facebook.com/" target="_blank" title="Facebook"><i
 
-                                  <!--   <ul class="sub-menu">
+                                                class="fab fa-facebook-f"></i></a>
 
-                                        <li><a href="counter-top.html">Marble</a></li>
+                                    </li>
 
-                                        <li><a href="counter-top.html">Quart</a></li>
+                                    <li class="twitter">
 
-                                        <li><a href="counter-top.html">Goanite</a></li>
+                                        <a href="https://twitter.com/" target="_blank" title="Twitter"><i
 
-                                    </ul> -->
+                                                class="fab fa-twitter"></i></a>
 
-                                </li>
+                                    </li>
 
-                                <li>
+                                    <li class="linkedin">
 
-                                    <a href="#">Commercial Sites</a>
+                                        <a href="https://linkedin.com/" target="_blank"><i
 
-                                </li>
+                                                class="fab fa-linkedin-in"></i></a>
 
-                               
+                                    </li>
 
-                                <li>
+                                </ul>
 
-                                    <a href="#">FAQ's</a>
+                            </div>
 
-                                </li>
-
-
-                                <li>
-
-                                    <a href="#">Contact Us</a>
-
-                                </li>
-
-                               <!--  <li class="menu-btn">
-
-                                    <a href="get-quotation.html" class="button button--tertiary">Get Quotation</a>
-
-                                </li>
- -->
-                            </ul>
-
-                        </nav><!-- / #primary-nav -->
+                        </div>
 
                     </div>
 
@@ -120,3 +104,120 @@
     </div>
 
 </header><!--.site-header-->
+
+
+  
+    <header class="site-header topheader">
+
+        <div class="site-header__primary">
+
+            <div class="container containerheader">
+
+
+                <div class="row flex">
+    <!-- 
+                    <div class="left-col cell">
+
+                        <a href="index.php" class="site-logo">
+
+                            <img src="assets/images/sandeeplogo.png" alt="">
+
+                        </a>
+
+                    </div> -->
+
+
+                    <div class="right-col cell">
+
+<button id="primary-nav-button" type="button" class="cell mobile">Menu</button>
+
+                        <div class="menu-holder">
+
+                            <nav id="primary-nav" class="dropdown clearfix">
+
+                                <ul class="dropdown menu clearfix description">
+
+                                <li><a href="index.php">Home</a></li>
+                                    
+                                    <li><a href="aboutpage.php">About Us</a>
+
+                                    </li>
+
+                                    <li>
+
+                                        <a href="#">View Plans</a>
+
+                                    </li>
+
+      <li><a href="#">Home For Sale</a>
+
+                                    </li>
+
+                                                              <li>
+
+
+
+                                        <a href="#">Site Built Homes</a>
+
+                                      <!--   <ul class="sub-menu">
+
+                                            <li><a href="counter-top.html">Marble</a></li>
+
+                                            <li><a href="counter-top.html">Quart</a></li>
+
+                                            <li><a href="counter-top.html">Goanite</a></li>
+
+                                        </ul> -->
+
+                                    </li>
+
+
+                                    <li>
+
+                                        <a href="#">Commercial Sites</a>
+
+                                    </li>
+
+
+      <li>
+
+                                        <a href="homespecspage.php">Home Spec's</a>
+
+                                    </li>
+
+                                   
+
+                                    <li>
+
+                                        <a href="FAQpage.php">FAQ's</a>
+
+                                    </li>
+
+
+                                    <li>
+
+                                        <a href="contactpage.php">Contact Us</a>
+
+                                    </li>
+
+                                   <!--  <li class="menu-btn">
+
+                                        <a href="get-quotation.html" class="button button--tertiary">Get Quotation</a>
+
+                                    </li>
+     -->
+                                </ul>
+
+                            </nav><!-- / #primary-nav -->
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </header><!--.site-header-->

@@ -1,60 +1,3 @@
-<div class="bottom-highlight">
-
-
-
-<div class="container">
-
-
-
-<div class="col-md-6"></div>
-
-
-
-<div class="col-md-6 text-center">
-
-
-
-Materials &amp; Specs. are above industry standards
-
-
-
-Covered by Progressive Home Warranty
-
-
-
-Covered by CSA (Canadian Std. Assoc.)
-
-
-
-Experienced &amp; qualified warranty service team.
-
-
-
-</div>
-
-
-
-</div>
-
-
-
-</div>
-
-
-<div id="footer">
-       <div class="container">
-        <div class="sixteen columns">
-            <p style="text-align: center;">Made with
-                <i class="fas fa-coffee"></i>
-                and
-                <i class="fas fa-heart"></i>
-            </p>
-           
-        </div>
-    </div>
-</div>
-
-<!-- 
 <footer class="site-footer">
 
     <div class="site-footer__primary">
@@ -64,38 +7,45 @@ Experienced &amp; qualified warranty service team.
             <div class="row flex">
 
                 <div class="col col-contact" data-animate-css="slideInUp" data-animate-css-delay="100ms">
+                  
+                    <h3 class="col__title">Connect Through</h3>
 
-                    <h3 class="col__title">Contact Information</h3>
+<ul class="footer-menu description">
 
-                    <ul class="contact-info clearfix">
+                      
+<li><i class="fa fa-map-marker" aria-hidden="true"></i>
+&nbsp;
 
-                        <li>
+                            <span class="description">
 
-                            <span class="title">Address:</span>
 
-                            <span class="description">SW, Calgary AB , Canada</span>
 
-                        </li>
+83, 29339, Hwy 2A
 
-                        <li>
 
-                            <span class="title">Phone:</span>
 
-                            <a href="tel:(401) 922-5532" class="description">(401) 922-5532</a>
+Mountain View County, Ab
 
-                        </li>
 
-                        <li>
+</span></li><br>
 
-                            <span class="title">Email:</span>
+<li><i class="fas fa-mobile-alt"></i>
+&nbsp;
+                            <span class="description">
+Call For Any Query: 403-404-0000
 
-                            <a href="mailto:info@gmr.com" class="description">info@gmr.com</a>
 
-                        </li>
+</span></li>
 
-                    </ul>
 
-                    <ul class="social-media clearfix">
+
+<br>
+
+
+
+</ul>
+    
+                  <ul class="social-media clearfix description">
 
                         <li class="facebook">
 
@@ -119,109 +69,71 @@ Experienced &amp; qualified warranty service team.
 
                         </li>
 
-                    </ul>
+                    </ul><!-- End of .social-media -->
 
                 </div>
 
                 <div class="col col-menu" data-animate-css="slideInUp" data-animate-css-delay="200ms">
 
-                    <h3 class="col__title">Work Highlights</h3>
+                    <h3 class="col__title">Quick Links</h3>
 
-                    <ul class="footer-menu">
+                    <ul class="footer-menu description">
+                        <li><a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i>
+&nbsp;HOME</a></li>
 
-                        <li><a href="#">Best Practice Blogs</a></li>
+                        <li><a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i>
+&nbsp;ABOUT US</a></li>
 
-                        <li><a href="#">Business Blogs</a></li>
+                        <li><a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i>
+&nbsp;VIEW PLANS</a></li>
 
-                        <li><a href="#">Technical Blogs</a></li>
+                        <li><a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i>
+&nbsp;HOMES FOR SALE</a></li>
 
-                        <li><a href="#">Contact Sitecore</a></li>
+                        <li><a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i>
+&nbsp;SITE BUILT HOMES</a></li>
+
+                        <li><a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i>
+&nbsp;COMMERCIAL SITES</a></li>
+
+                        <li><a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i>
+&nbsp;HOMES SPEC'S.</a></li>
+
+                        <li><a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i>
+&nbsp;FAQ’S</a></li>
+
+                        <li><a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i>
+&nbsp;CONTACT US</a></li>
+
+                        <li><a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i>
+&nbsp;SITEMAP</a></li>
 
                     </ul>
 
                 </div>
 
-                <div class="col col-form" data-animate-css="slideInUp" data-animate-css-delay="300ms">
+                 <div class="col col-form" data-animate-css="slideInUp" data-animate-css-delay="300ms">
+                  
+                   <!--  <h3 class="col__title" style="text-align: center;">
+Sandeep Homes
+</h3> -->
+<a href="index.php" class="site-logo">
 
-                    <h3 class="col__title">Contact Us</h3>
+                        <img src="assets/images/sandeeplogofooter.png" alt="" class="footerlogo">
 
-                    <form class="form-wrapper">
+                    </a>
 
-                        <div class="form-body flex">
+                    <ul class="footer-menu">
 
-                            <div class="col-half">
-
-                                <div class="field hide-label">
-
-                                    <label>Full Name</label>
-
-                                    <input type="text" name="name" placeholder="Full Name">
-
-                                </div>
-
-                                <div class="field hide-label">
-
-                                    <label>Phone Number</label>
-
-                                    <input type="text" name="phone" placeholder="Phone Number">
-
-                                </div>
-
-                                <div class="field hide-label">
-
-                                    <label>Email</label>
-
-                                    <input type="email" name="email" placeholder="Email Address">
-
-                                </div>
-
-                            </div>
-
-                            <div class="col-half">
-
-                                <div class="field hide-label">
-
-                                    <label>Message</label>
-
-                                    <textarea name="message" cols="30" rows="4" placeholder="Message"></textarea>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                        <button class="button button--border-primary" type="submit">Submit Now</button>
-
-                    </form>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div> 
-
-    <div class="site-footer__secondary" data-animate-css="fadeIn" data-animate-css-delay="100ms">
-
-        <div class="container">
-
-            <div class="row flex">
-
-  <div class="cell copyright">
-
-
-                </div>
- -->
-                <!-- div class="cell source-org">
-
-                    <p>Made with
-                <i class="icon-footer"></i>
-                and
-                <i class="icon-footer"></i>
-                in nepal
-            </p>
+                      
+<li>
+<p class="footertext">
+    "Our Homes are custom build to your specifications. Choose from our variety of floor plans, or feel free to bring your own. Once you have chosen a plan that catches your eye come see us. We will discuss the plans with you and modify the whole house design to your specifications. Once we have the floor plans completed we can start building your dream house."
+</p>
+</li>
+</ul>
+                    
+  
 
                 </div>
 
@@ -230,8 +142,41 @@ Experienced &amp; qualified warranty service team.
         </div>
 
     </div>
+   
 
-</footer> -->
+</footer>
+
+   <div class="site-footer__secondary" id="footer">
+
+        <div class="container">
+
+            <div class="row flex footerdescription">
+
+                <div class="col-md-6">
+
+                    <div class="cell copyright">
+
+                        <p>© Copyright 2019, SandeepHomes. All Rights Reserved</p>
+
+                    </div>
+                </div>
+
+
+                <div class="col-md-6">
+                    <div class="cell source-org pull-right">
+
+                        Designed &amp; Powered By : <a target="_blank" href="http://globalitechsystems.com/">GiS Calgary</a>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div><!--.site-footer__secondary-->
+
+
  
 <a id="back-to-top" href="#" class="back-to-top" role="button" title="Click to return on the top page"></a>
 

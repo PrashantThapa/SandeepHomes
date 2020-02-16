@@ -7,8 +7,7 @@
 
     <?php include('includes/header.php');?>
 
-    <?php include('includes/gallery.php');?>
-
+    <?php include('includes/HomeSpecs.php');?>
 
     <?php include('includes/footer.php');?>
 

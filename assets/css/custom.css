@@ -1,6 +1,10 @@
 #primary-nav li.active > a, #primary-nav li > a:hover, #primary-nav li.selected > a {
-background: #fae207 !important;
-color: black !important;
+background: white!important;
+    color: black !important;
+}
+
+#primary-nav li a {
+  color: black !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -28,7 +32,7 @@ img {vertical-align: middle;}
 /*    position: absolute;
 
 */  
-	-webkit-animation: slide 3s forwards;
+  -webkit-animation: slide 3s forwards;
     -webkit-animation-delay: 1s;
     animation: slide 3s forwards;
     animation-delay: 1s;
@@ -50,28 +54,28 @@ img {vertical-align: middle;}
   margin: auto;
 }
 
-/* Caption text */
 
-.active {
-  background-color: #717171;
-}
+.site-footer {
+    background: black !important;
+  }
+/* Caption text */
 
 
 .sampleImage{
-	width: 100% !important;
+  width: 100% !important;
 }
  
  .slidediv {
- 	background: transparent;	
+  background: transparent;  
        outline: none;
       position: relative;
       border: 2px solid #111;
 /*      padding: 15px 50px;
 */ 
-	 width: 100%;
+   width: 100%;
 
      overflow: hidden;
-		color: white !important;
+    color: white !important;
     }
 
   .slidediv:hover{cursor: pointer; 
@@ -79,7 +83,9 @@ img {vertical-align: middle;}
 
 
  /*button:before (attr data-hover)*/
-    .slidediv:hover:before{ opacity:1;transform: translate(0,0);}
+    .slidediv:hover:before{ opacity:1;
+/*      transform: translate(0,0);
+*/    }
     .slidediv:before{
       content: attr(data-hover);
      
@@ -87,28 +93,30 @@ img {vertical-align: middle;}
 /*      top: 1.1em; 
 */
 
-  	  box-shadow: inset 0 0 0 1000px rgb(0,0,0,0.4);
-	  height: 100%;
-	  left: 0;
+/*      box-shadow: inset 0 0 0 1000px rgb(0,0,0,0.4);
+*/    height: 100%;
+    left: 0;
       width: 100%;
      
       opacity: 0;
-     transform: translate(-50%, -50%);
- 	 -ms-transform: translate(-50%, -50%);
- 	 scale: ;
-    }
+/*     transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);*/
+/*   scale: ;
+*/    }
       /*button div (button text before hover)*/
       /*.slidediv:hover div{opacity: 0; 
-      	transform: translate(100%,0);
+        transform: translate(100%,0);
      }*/
  
  .text{
- 	opacity: 0;
- 	 text-transform: uppercase;
+  opacity: 0;
+   text-transform: uppercase;
       letter-spacing: 3px;
       font-weight: 800;
-      font-size: 1.2em;
- }
+/*      font-size: 1.2em;
+*/ 
+      font-size: 16px !important;
+}
 
  .slidediv:hover .text {
   transition: .5s ease;
@@ -124,86 +132,44 @@ img {vertical-align: middle;}
   .intro-block--secondary {
     background: #4d9de0 !important;
 }
-/* Animation */
-
-.parallax > use {
-  animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
-}
-.parallax > use:nth-child(1) {
-  animation-delay: -2s;
-  animation-duration: 7s;
-}
-.parallax > use:nth-child(2) {
-  animation-delay: -3s;
-  animation-duration: 10s;
-}
-.parallax > use:nth-child(3) {
-  animation-delay: -4s;
-  animation-duration: 13s;
-}
-.parallax > use:nth-child(4) {
-  animation-delay: -5s;
-  animation-duration: 20s;
-}
-@keyframes move-forever {
-  0% {
-   transform: translate3d(-90px,0,0);
-  }
-  100% { 
-    transform: translate3d(85px,0,0);
-  }
-}
-/*Shrinking for mobile*/
-@media (max-width: 768px) {
-  .waves {
-    height:40px;
-    min-height:40px;
-  }
-  .content {
-    height:30vh;
-  }
-  h1 {
-    font-size:24px;
-  }
-}
-
 
 #footer {
     position: relative;
     margin: 0 auto;
     width: 100%;
     background: black;
-    padding-top: 60px;
-    padding-bottom: 35px;
+    padding-top: 40px;
+    padding-bottom: 20px;
     color:white !important;
 }
 
-a:focus, a:hover {
+/*a:focus, a:hover {
     color: #23527c;
     text-decoration: underline;
-}
+}*/
 
 .bottom-highlight {
     background: url(http://sandeephomes.com/assets/images/bottom-highlight.jpg) top center;
     width: 100%;
     height: 300px;
-/*    padding-top: 65px;
-*/    border-top: -1px solid #989976;
+    padding-top: 65px;
+    border-top: -1px solid #989976;
 /*    border-bottom: 1px solid #989976;
 */    border: 1px solid #989976;
-    margin-top: 42px;
-    font-family: bell-gothic;
+/*    margin-top: 42px;
+*/    font-family: bell-gothic;
     color: #fff;
     font-size: 23px;
     line-height: 42px;
 }
 
 
-@media (min-width: 992px)
+@media (min-width: 992px){
 .col-md-6 {
     width: 50%;
 }
-@media (min-width: 992px)
+}
+@media (min-width: 992px){
 .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
     float: left;
 }
@@ -216,6 +182,363 @@ a:focus, a:hover {
 
 .text-center {
     text-align: center;
+}
+}
+
+@media only screen and (max-width: 990px) and (min-width: 150px){
+.bottom-highlight {
+    background: url(http://sandeephomes.com/assets/images/bottom-highlight.jpg) top center;
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+    padding: 25px 0px;
+    background-size: cover;
+}
+}
+
+@media only screen and (max-width: 990px) and (min-width: 150px){
+.container {
+    width: 100% !important;
+    padding: 0px 15px !important;
+}
+}
+
+/*.site-footer__primary .col-contact, .site-footer__primary .col-menu {
+    width: 35% !important; 
+}
+
+.site-footer__primary .col-form {
+    width: 30%;
+}
+
+
+.site-footer .contact-info li span.description {
+    width: 100% !important;
+}*/
+
+/*.sandeep-box{
+  border: 1px solid;
+}
+
+.descriptionsandeep{
+  padding: 10px;
+    margin-top: 10px !important;
+}
+.imgsandeep{
+  width: 80%;
+    padding: 20px;
+    margin-left: 35px;
+}*/
+
+/*@media only screen and (max-width: 990px) and (min-width: 150px){
+
+.site-footer__primary .col-form {
+    display: none !important;
+}
+
+.site-footer__primary .col-contact, .site-footer__primary .col-menu {
+    width: 50% !important; 
+}
+
+
+}*/
+
+.site-footer__primary .col-form {
+    width: 50% !important;
+}
+
+.site-header__primary .right-col {
+    /* width: 100%; */
+    width: calc(100%) !important;
+}
+
+
+.site-header__primary .cells {
+    /* width: 100%; */
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+
+
+.site-header {
+    position: relative;
+    background: #4D9DE0 !important;
+  }
+
+.site-header.is-sticky {
+  padding: 0px;
+}
+
+.topheader{
+    background: #fae207 !important;
+    padding: 0px !important;
+}
+
+
+.small-title{
+    font-family: testfont,cursive !important;
+    font-size: 40px;
+    margin: 0px !important;
+    color: white !important;
+    }
+
+
+.medium-title{
+    margin: 0px !important;
+    color: white !important;
+    font-size: 20px !important;
+    }
+
+   
+
+
+
+
+
+.site-header__primary .right-cols {
+  width: calc(100% - 250px) !important;
+}
+
+@font-face {
+   font-family: testfont;
+   src: url("../css/SansationLight.woff");
+}
+
+/*
+#primary-nav .sub-menu {
+    background: #A2D3C2 !important;
+}
+*/
+
+
+.slidediv:hover img{
+    transform: scale(1.1);
+    transition: transform 3s cubic-bezier(0.2, 0.96, 0.34, 1);
+}
+
+.back-to-top {
+    background: #fae207;
+}
+
+.back-to-top:hover {
+    background: #4d9cdf;
+}
+
+
+.site-footer__primary .col-form {
+    width: 45% !important;
+}
+
+.site-footer__primary .col-menu{
+    width: 20% !important;
+}
+
+.site-footer__primary .col-contact {
+    width: 35% !important;
+}
+
+.footerintro-p{
+/*  margin: 0px !important;
+*/      margin-top: 50px !important;
+}
+
+.footerintro-p > li{
+  display: block;
+  padding: 0px !important;
+}
+
+.white{
+  background: white !important;
+}
+
+.lightgrey{
+  background: lightgrey !important;
+}
+
+ .textHomeSpecs{
+    font-family: "Oswald", sans-serif !important;
+    font-size: 20px !important;
+    text-align: left;
+    word-spacing: 5px;
+    /* margin: 0px !important; */
+    color: black !important;
+    }
+
+.aboutimage{
+  border: none !important;
+}
+
+.hero-block--inner {
+    min-height: 200px !important;
+  }
+
+.aboutp{
+  margin-top: -100px;
+}
+
+.hero-block--inner .hero-content {
+    margin-top: 0px !important;
+}
+
+.right-col.is-sticky {
+  width: 100% !important;
+}
+
+
+
+.footertext{
+  margin-top: 30px;
+  font-style:italic;
+  text-align: center;
+  font-size: 16px !important;
+}
+
+.description{
+  font-size: 16px !important;
+
+}
+
+
+.site-footer__primary .col__title {
+    font-size: 24px !important;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid;
+}
+
+h1 {
+    font-size: 48px !important;
+}
+
+.secondary-block h2 {
+    margin-bottom: 45px;
+    font-size: 42px;
+    }
+
+    h2{
+          font-size: 38px;
+    }
+
+
+  .lightgrey{
+    background: lightgrey !important;
+  }
+
+  .white{
+    background: white !important;
+    padding: 20px !important;
+  }
+
+  .btmheader.is-sticky {
+  display: none !important;
+}
+
+
+.is-sticky #primary-nav li a {
+    color: #000;
+    padding: 10px 14px !important;
+    font-size: 16px !important;
+  }
+
+
+  @media only screen and (max-width: 990px) and (min-width: 150px){
+
+          .site-header__primary .right-cols {
+                  width: 100% !important;
+                  text-align: center !important;
+                }
+
+              .site-footer__primary .col-contact, .site-footer__primary .col-menu, .site-footer__primary .col-form  {
+              
+                  width: 100% !important;
+              }
+
+              .social-mediaheader{
+                display: none !important;
+              }
+
+              .hero-block .button {
+                   margin-top: 15px;
+                   margin-bottom: 15px;
+              }
+
+
+              #primary-nav-button.mobile {
+                         position: absolute;
+                         height: 40px;
+                         top: 7px !important;
+                         margin: 0;
+              }
+
+               #primary-nav-button {
+                        left: unset !important;
+
+              }
+
+              .description{
+                font-size: unset !important;
+              }
+
+              .topheader {
+                  background: #fae207 !important;
+                  padding: 17px !important;
+/*                  margin-top: 166px !important;
+*/}
+
+.site-footer__secondary .container {
+  border-top: unset !important;
+}
+
+.textfaq {
+  font-size: unset !important;
+}
+
+}
+
+/*.contact-block .map-col{
+  width: 100% !important;
+}
+*/
+.footerlogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 135px !important;
+}
+
+    .footerdescription{
+                font-size: 16px !important;
+              }
+
+
+.form-wrapper .form-body .field input, .form-wrapper .form-body .field textarea, .form-wrapper .form-body .field select {
+  font-size: 16px !important;
+}
+/*.btmheader.is-sticky , .topheader.is-sticky{
+  display: none !important;
+}*/
+
+
+
+/*.btmheader{
+  position: fixed !important;
+}*/
+
+
 }
 /*
 #primary-nav .sub-menu {

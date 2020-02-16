@@ -10,7 +10,7 @@
                 <h1 class="animated zoomIn" data-delay="1s">LET US BUILD YOUR DREAM</h1>
 
                 
-                    <ul class="animated fadeInLeft" data-delay="1.5s">
+                    <ul class="animated fadeInLeft description" data-delay="1.5s">
 
                             <li> Build custom RTM homes ranging 400 sq. ft. to 3000 sq. ft.</li>
 
@@ -20,7 +20,7 @@
 
                     </ul>
 
-                <a href="#" class="button animated fadeInUp" data-delay="1s">SEND YOUR QUERIES</a>
+                <a href="#" class="button animated fadeInUp description" data-delay="1s">SEND YOUR QUERIES</a>
 
 
             </div>
@@ -39,7 +39,7 @@
               <h1 class="animated zoomIn" data-delay="1s">LET US BUILD YOUR DREAM</h1>
 
                 
-                    <ul class="animated fadeInLeft" data-delay="1.5s">
+                    <ul class="animated fadeInLeft description" data-delay="1.5s">
 
                             <li> Build custom RTM homes ranging 400 sq. ft. to 3000 sq. ft.</li>
 
@@ -49,7 +49,7 @@
 
                     </ul>
 
-                <a href="#" class="button animated fadeInUp" data-delay="1s">SEND YOUR QUERIES</a>
+                <a href="#" class="button animated fadeInUp description" data-delay="1s">SEND YOUR QUERIES</a>
 
 
             </div>

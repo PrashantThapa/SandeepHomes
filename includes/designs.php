@@ -8,7 +8,7 @@
 
                 <div class="col slideInUp">
                     
-                    <a href="#" class="slidediv">
+                    <a href="gallerypage.php" class="slidediv">
                         <img src="assets/images/samples/example-1.jpg" class="sampleImage" alt="">
                         <div class="text">More Info</div>
                     </a>
@@ -17,7 +17,7 @@
 
                 <div class="col slideInUp">
 
-                    <a href="#" class="slidediv">
+                    <a href="gallerypage.php" class="slidediv">
                         <img src="assets/images/samples/example-2.jpg" class="sampleImage" alt="">
                         <div class="text">More Info</div>
                     </a>  
@@ -26,7 +26,7 @@
 
                 <div class="col slideInUp">
 
-                    <a href="#" class="slidediv">
+                    <a href="gallerypage.php" class="slidediv">
                                     <img src="assets/images/samples/example-3.jpg" class="sampleImage" alt="">
                                                             <div class="text">More Info</div>
 
@@ -36,7 +36,7 @@
 
                 <div class="col slideInUp">
 
-                    <a href="#" class="slidediv">
+                    <a href="gallerypage.php" class="slidediv">
                                     <img src="assets/images/samples/example-4.jpg" class="sampleImage" alt="">
                                                             <div class="text">More Info</div>
 
@@ -50,7 +50,7 @@
 
                 <div class="col slideInUp">
                     
-                    <a href="#" class="slidediv">
+                    <a href="gallerypage.php" class="slidediv">
                         <img src="assets/images/samples/example-5.jpg" class="sampleImage" alt="">
                         <div class="text">More Info</div>
                     </a>
@@ -59,7 +59,7 @@
 
                 <div class="col slideInUp">
 
-                    <a href="#" class="slidediv">
+                    <a href="gallerypage.php" class="slidediv">
                         <img src="assets/images/samples/example-6.jpg" class="sampleImage" alt="">
                         <div class="text">More Info</div>
                     </a>  
@@ -68,7 +68,7 @@
 
                 <div class="col slideInUp">
 
-                    <a href="#" class="slidediv">
+                    <a href="gallerypage.php" class="slidediv">
                                     <img src="assets/images/samples/example-7.jpg" class="sampleImage" alt="">
                                                             <div class="text">More Info</div>
 
@@ -78,7 +78,7 @@
 
                 <div class="col slideInUp">
 
-                    <a href="#" class="slidediv">
+                    <a href="gallerypage.php" class="slidediv">
                                     <img src="assets/images/samples/example-8.jpg" class="sampleImage" alt="">
                                                             <div class="text">More Info</div>
 
@@ -103,7 +103,7 @@
 
                 <h2>FLOOR PLANS</h2>
 
-                 <p style="color:white">
+                 <p class="description" style="color: white !important">
                     We have some amazing floor plans that you can choose from or modify to suit your life style.
                 </p>
 
