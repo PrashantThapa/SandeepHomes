@@ -1,195 +1,195 @@
-    <footer class="site-footer">
+        <footer class="site-footer">
 
-        <div class="site-footer__primary">
+            <div class="site-footer__primary">
 
-            <div class="container">
+                <div class="container">
 
-                <div class="row flex">
+                    <div class="row flex">
 
-                    <div class="col col-contact" data-animate-css="slideInUp" data-animate-css-delay="100ms">
-                      
-                        <h3 class="col__title">Connect Through</h3>
-
-    <ul class="footer-menu description">
-
+                        <div class="col col-contact" data-animate-css="slideInUp" data-animate-css-delay="100ms">
                           
-    <li><i class="fa fa-map-marker" aria-hidden="true"></i>
-    &nbsp;
+                            <h3 class="col__title">Connect Through</h3>
 
-                                <span class="description">
+        <ul class="footer-menu description">
 
+                              
+        <li><i class="fa fa-map-marker" aria-hidden="true"></i>
+        &nbsp;
 
-
-    83, 29339, Hwy 2A
-
-
-
-    Mountain View County, Ab
-
-
-    </span></li>
-
-    <li><i class="fas fa-mobile-alt"></i>
-    &nbsp;
-                                <span class="description">
-    Call For Any Query: 403-404-0000
-
-
-    </span></li>
+                                    <span class="description">
 
 
 
-    <br>
+        83, 29339, Hwy 2A
 
 
 
-    </ul>
-        
-                      <ul class="social-media clearfix description">
+        Mountain View County, Ab
 
-                            <li class="facebook">
 
-                                <a href="https://www.facebook.com/" target="_blank" title="Facebook"><i
+        </span></li>
 
-                                        class="fab fa-facebook-f"></i></a>
+        <li><i class="fas fa-mobile-alt"></i>
+        &nbsp;
+                                    <span class="description">
+        Call For Any Query: 403-404-0000
 
-                            </li>
 
-                            <li class="twitter">
+        </span></li>
 
-                                <a href="https://twitter.com/" target="_blank" title="Twitter"><i
 
-                                        class="fab fa-twitter"></i></a>
 
-                            </li>
+        <br>
 
-                            <li class="linkedin">
 
-                                <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
 
-                            </li>
+        </ul>
+            
+                          <ul class="social-media clearfix description">
 
-                        </ul><!-- End of .social-media -->
+                                <li class="facebook">
 
-                    </div>
+                                    <a href="https://www.facebook.com/" target="_blank" title="Facebook"><i
 
-                    <div class="col col-menu" data-animate-css="slideInUp" data-animate-css-delay="200ms">
+                                            class="fab fa-facebook-f"></i></a>
 
-                        <h3 class="col__title">Quick Links</h3>
+                                </li>
 
-                        <ul class="footer-menu description">
-                            <li><a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i>
-    &nbsp;HOME</a></li>
+                                <li class="twitter">
 
-                            <li><a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i>
-    &nbsp;ABOUT US</a></li>
+                                    <a href="https://twitter.com/" target="_blank" title="Twitter"><i
 
-                            <li><a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i>
-    &nbsp;VIEW PLANS</a></li>
+                                            class="fab fa-twitter"></i></a>
 
-                            <li><a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i>
-    &nbsp;HOMES FOR SALE</a></li>
+                                </li>
 
-                            <li><a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i>
-    &nbsp;SITE BUILT HOMES</a></li>
+                                <li class="linkedin">
 
-                            <li><a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i>
-    &nbsp;COMMERCIAL SITES</a></li>
+                                    <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
 
-                            <li><a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i>
-    &nbsp;HOMES SPEC'S.</a></li>
+                                </li>
 
-                            <li><a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i>
-    &nbsp;FAQ’S</a></li>
+                            </ul><!-- End of .social-media -->
 
-                            <li><a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i>
-    &nbsp;CONTACT US</a></li>
+                        </div>
 
-                            <li><a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i>
-    &nbsp;SITEMAP</a></li>
+                        <div class="col col-menu" data-animate-css="slideInUp" data-animate-css-delay="200ms">
 
-                        </ul>
+                            <h3 class="col__title">Quick Links</h3>
 
-                    </div>
+                            <ul class="footer-menu description">
+                                <li><a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i>
+        &nbsp;HOME</a></li>
 
-                     <div class="col col-form" data-animate-css="slideInUp" data-animate-css-delay="300ms">
-                      
-                       <!--  <h3 class="col__title" style="text-align: center;">
-    Sandeep Homes
-    </h3> -->
-    <a href="index.php" class="site-logo">
+                                <li><a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i>
+        &nbsp;ABOUT US</a></li>
 
-                            <img src="assets/images/sandeeplogofooter.png" alt="" class="footerlogo">
+                                <li><a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i>
+        &nbsp;VIEW PLANS</a></li>
 
-                        </a>
+                                <li><a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i>
+        &nbsp;HOMES FOR SALE</a></li>
 
-                        <ul class="footer-menu">
+                                <li><a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i>
+        &nbsp;SITE BUILT HOMES</a></li>
 
+                                <li><a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i>
+        &nbsp;COMMERCIAL SITES</a></li>
+
+                                <li><a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i>
+        &nbsp;HOMES SPEC'S.</a></li>
+
+                                <li><a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i>
+        &nbsp;FAQ’S</a></li>
+
+                                <li><a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i>
+        &nbsp;CONTACT US</a></li>
+
+                                <li><a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i>
+        &nbsp;SITEMAP</a></li>
+
+                            </ul>
+
+                        </div>
+
+                         <div class="col col-form" data-animate-css="slideInUp" data-animate-css-delay="300ms">
                           
-    <li>
-    <p class="footertext">
-        "Our Homes are custom build to your specifications. Choose from our variety of floor plans, or feel free to bring your own. Once you have chosen a plan that catches your eye come see us. We will discuss the plans with you and modify the whole house design to your specifications. Once we have the floor plans completed we can start building your dream house."
-    </p>
-    </li>
-    </ul>
-                        
-      
+                           <!--  <h3 class="col__title" style="text-align: center;">
+        Sandeep Homes
+        </h3> -->
+        <a href="index.php" class="site-logo">
+
+                                <img src="assets/images/sandeeplogofooter.png" alt="" class="footerlogo">
+
+                            </a>
+
+                            <ul class="footer-menu">
+
+                              
+        <li>
+        <p class="footertext">
+            "Our Homes are custom build to your specifications. Choose from our variety of floor plans, or feel free to bring your own. Once you have chosen a plan that catches your eye come see us. We will discuss the plans with you and modify the whole house design to your specifications. Once we have the floor plans completed we can start building your dream house."
+        </p>
+        </li>
+        </ul>
+                            
+          
+
+                        </div>
 
                     </div>
 
                 </div>
 
             </div>
+           
 
-        </div>
-       
+        </footer>
 
-    </footer>
+           <div class="site-footer__secondary" id="footer">
 
-       <div class="site-footer__secondary" id="footer">
+                <div class="container">
 
-            <div class="container">
+                    <div class="row flex footerdescription">
 
-                <div class="row flex footerdescription">
+                        <div class="col-md-6">
 
-                    <div class="col-md-6">
+                            <div class="cell copyright">
 
-                        <div class="cell copyright">
+                                <p>© Copyright 2019, SandeepHomes. All Rights Reserved</p>
 
-                            <p>© Copyright 2019, SandeepHomes. All Rights Reserved</p>
-
+                            </div>
                         </div>
-                    </div>
 
 
-                    <div class="col-md-6">
-                        <div class="cell source-org pull-right">
+                        <div class="col-md-6">
+                            <div class="cell source-org pull-right">
 
-                            Designed &amp; Powered By : <a target="_blank" href="http://globalitechsystems.com/">GiS Calgary</a>
+                                Designed &amp; Powered By : <a target="_blank" href="http://globalitechsystems.com/">GiS Calgary</a>
 
+                            </div>
                         </div>
+
                     </div>
 
                 </div>
 
-            </div>
-
-        </div><!--.site-footer__secondary-->
+            </div><!--.site-footer__secondary-->
 
 
-     
-    <a id="back-to-top" href="#" class="back-to-top" role="button" title="Click to return on the top page"></a>
+         
+        <a id="back-to-top" href="#" class="back-to-top" role="button" title="Click to return on the top page"></a>
 
 
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-    <!-- Include all plugins  -->
+        <!-- Include all plugins  -->
 
-    <script src="assets/js/vendors.min.js"></script>
+        <script src="assets/js/vendors.min.js"></script>
 
-    <script src="assets/js/script.min.js"></script>
+        <script src="assets/js/script.min.js"></script>
 
-    <script src="assets/js/custom.js"></script>
+        <script src="assets/js/custom.js"></script>
 

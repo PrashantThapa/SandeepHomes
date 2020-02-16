@@ -20,7 +20,7 @@
 
                     </ul>
 
-                <a href="#" class="button animated fadeInUp description" data-delay="1s">SEND YOUR QUERIES</a>
+                <a href="#" class="button animated fadeInUp description buttonslider" data-delay="1s">SEND YOUR QUERIES</a>
 
 
             </div>
@@ -49,7 +49,7 @@
 
                     </ul>
 
-                <a href="#" class="button animated fadeInUp description" data-delay="1s">SEND YOUR QUERIES</a>
+                <a href="#" class="button animated fadeInUp description buttonslider" data-delay="1s">SEND YOUR QUERIES</a>
 
 
             </div>

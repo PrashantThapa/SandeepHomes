@@ -1,6 +1,3 @@
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 <style type="text/css">
   .navbar-default {
     background-color: unset !important;
@@ -11,6 +8,7 @@
      padding: 0px !important; 
 }
 </style>
+
 <div class="hero-block hero-block--inner" style="background-image: url('http://sandeephomes.ca/assets/images/about-bg.jpg')">
     
     <div class="container flex cell">
